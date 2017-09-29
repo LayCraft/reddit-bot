@@ -16,9 +16,11 @@ From within the project directory
 
     $ python3 app/main.py
 
-3. You need to do some setup on the reddit account you wish to use. Create a Reddit App from https://www.reddit.com/prefs/apps/ . Choose to make a script. This is a bot so it does not require a redirect URI but you have to enter one anyhow so enter "http://127.0.0.1" into the field.
+3. You need to do some setup on the reddit account you wish to use. Create a Reddit App from https://www.reddit.com/prefs/apps/ . Choose to make a script. This is a bot so it does not require a redirect URI but you have to enter one anyhow so enter "http://localhost:8080" into the field.
 
 Collect the webapp name and also the secret key from the form.
+
+Add the information into the app/praw.ini file.
 
 ---------------------------------------
 
