@@ -20,7 +20,7 @@ From within the project directory
 
 Collect the webapp name and also the secret key from the form.
 
-Add the information into the app/praw.ini file.
+All oauth stuff is stored as attributes for the Settings class in the settings.py file. Add the correct information for your bot into settings.py. 
 
 ---------------------------------------
 
