@@ -2,14 +2,26 @@
 
 This is a basic bot for reddit.
 
-1. make the venv
+---------------------------------------
 
-    $ python3 -m venv tutorial-env
+## Run the VENV
 
-2. Activate the venv
+From within the project directory
+
+1. Activate the venv
 
     $ source tutorial-env/bin/activate
 
-3. Deactivate the venv (Obvious?)
+2. Run the application
+
+    $ python3 app/main.py
+
+---------------------------------------
+
+## Shut down the app
+
+1. control + c to kill the application
+
+2. Deactivate the venv (Obvious?)
 
     $ deactivate
