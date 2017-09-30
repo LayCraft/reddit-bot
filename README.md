@@ -20,7 +20,7 @@ From within the project directory
 
 Collect the webapp name and also the secret key from the form.
 
-All oauth stuff is stored as attributes for the Settings class in the settings.py file. Add the correct information for your bot into settings.py. 
+All oauth stuff is stored as attributes for the Settings class in the settings.py file. Add the correct information for your bot into settings.py.
 
 ---------------------------------------
 
@@ -28,6 +28,6 @@ All oauth stuff is stored as attributes for the Settings class in the settings.p
 
 1. control + c to kill the application
 
-2. Deactivate the venv (Obvious?)
+2. Deactivate the venv or kill your terminal session (Obvious?)
 
     $ deactivate
